@@ -559,6 +559,18 @@ main .recent-schedules a {
   justify-content: center;
 }
 
+.right .sales-analysis .add-product:hover{
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  animation: animate 1s linear infinite;
+}
+@keyframes animate{
+  100%{
+    filter:hue-rotate(360deg);
+  }
+}
+
+
 .right .sales-analysis .add-product div {
   display: flex;
   align-items: center;
