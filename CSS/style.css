@@ -133,15 +133,15 @@ b {
 }
 
 .danger {
-  color: var(--color-danger);
+  color: var(--color-danger) !important;
 }
 
 .success {
-  color: var(--color—success);
+  color: var(--color—success) !important;
 }
 
 .warning {
-  color: var(--color-warning);
+  color: var(--color-warning) !important;
 }
 
 aside {
@@ -743,4 +743,8 @@ main .recent-schedules a {
   .right .top button span {
     font-size: 2rem;
   }
+}
+
+.danger{
+  color: var(--color-danger);
 }
